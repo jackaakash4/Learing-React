@@ -1,12 +1,13 @@
 import './App.css';
 import 'tachyons'
-import MouseContainer from './useEffectHook/MouseContainer';
+import HookIntervalCounter from './useEffectHook/HookIntervalCounter';
+import DataFetching from './useEffectHook/DataFetching';
 
 function App() {
   
   return (
    <div className=''>
-    <MouseContainer />
+    <DataFetching />
    </div>
   )
 }
